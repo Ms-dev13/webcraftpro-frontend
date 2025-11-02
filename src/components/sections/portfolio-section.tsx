@@ -17,7 +17,7 @@ const PortfolioSection: React.FC = () => {
       title: "Restaurant Website",
       description: "Coffee shop website highlighting menu, ambiance, and contact details.",
       category: "Business",
-      image: "Public/images/restaurant-interior.jpg",
+      image: "/images/restaurant-interior.jpg",
       technologies: ["React", "TailWind CSS"],
       liveUrl: "https://lumen-coffee-1jcm.vercel.app/ ",
       githubUrl: "#"
@@ -27,7 +27,7 @@ const PortfolioSection: React.FC = () => {
       description: "Turf booking platform with real-time scheduling and online payments",
       category: "Business",
       //https://mir-s3-cdn-cf.behance.net/projects/404/267642225622209.Y3JvcCwzMjMyLDI1MjgsMCww.png
-      image: "Public/images/sports-center.jpg",
+      image: "/images/sports-center.jpg",
       technologies: ["React.js", "SpringBoot", "MySQL"],
       liveUrl: "https://frontend-bookmytruf.vercel.app",
       githubUrl: "#"
@@ -36,7 +36,7 @@ const PortfolioSection: React.FC = () => {
       title: "Clothing E-commerce",
       description: "Beautiful clothing website with online ordering system",
       category: "E-commerce",
-      image: "Public/images/phoneix.png",
+      image: "/images/phoneix.png",
       technologies: ["React", "Express", "MySQL", "PayPal"],
       liveUrl: "#",
       githubUrl: "#"
@@ -46,7 +46,7 @@ const PortfolioSection: React.FC = () => {
       description: "Pet grooming website with services, pricing, and booking options.",
       category: "Business",
       //"https://media.istockphoto.com/id/969077342/photo/a-chinese-female-dog-groomer-grooming-a-cavalier-king-charles-spaniel-dog.jpg?s=2048x2048&w=is&k=20&c=TW7Rq0lukRnaJ--cIQZp8k2CtYgzt1mYqR_3QUEn6kQ=
-      image: "Public/images/beautiful-pet-portrait-dog.jpg",
+      image: "public/images/beautiful-pet-portrait-dog.jpg",
       technologies: ["React", "Nodejs", "Express", "MongoDB"],
       liveUrl: "https://pet-grooming-one.vercel.app/",
       githubUrl: "#"
@@ -55,7 +55,7 @@ const PortfolioSection: React.FC = () => {
       title: "Physiotherapy Website",
       description: "Healthcare site offering physiotherapy info and appointment scheduling.",
       category: "Healthcare",
-      image: "Public/images/healthcare.jpg",
+      image: "public/images/healthcare.jpg",
       technologies: ["React Native", "Node.js", "PostgreSQL"],
       liveUrl: "https://physiotherapy-website-demo.vercel.app/",
       githubUrl: "#"
@@ -64,7 +64,7 @@ const PortfolioSection: React.FC = () => {
       title: "Studio Website",
       description: "Photography portfolio showcasing work with contact and booking form.",
       category: "Portfolio",
-      image: "Public/images/studio.png",
+      image: "public/images/studio.png",
       technologies: ["NextJs", "EmailJS", "Tailwind CSS"],
       liveUrl: "https://murlidharstudio.com/",
       githubUrl: "#"
@@ -73,7 +73,7 @@ const PortfolioSection: React.FC = () => {
       title: "Salon Website",
       description: "Salon website with service showcase and easy appointment booking",
       category: "Business",
-      image: "Public/images/Salon.png",
+      image: "public/images/Salon.png",
       technologies: ["ReactJs", "EmailJS", "Tailwind CSS"],
       liveUrl: "https://blush-bloom-beauty-studio.vercel.app/",
       githubUrl: "#"
