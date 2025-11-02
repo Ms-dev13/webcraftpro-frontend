@@ -46,7 +46,7 @@ const PortfolioSection: React.FC = () => {
       description: "Pet grooming website with services, pricing, and booking options.",
       category: "Business",
       //"https://media.istockphoto.com/id/969077342/photo/a-chinese-female-dog-groomer-grooming-a-cavalier-king-charles-spaniel-dog.jpg?s=2048x2048&w=is&k=20&c=TW7Rq0lukRnaJ--cIQZp8k2CtYgzt1mYqR_3QUEn6kQ=
-      image: "public/images/beautiful-pet-portrait-dog.jpg",
+      image: "/images/beautiful-pet-portrait-dog.jpg",
       technologies: ["React", "Nodejs", "Express", "MongoDB"],
       liveUrl: "https://pet-grooming-one.vercel.app/",
       githubUrl: "#"
@@ -55,7 +55,7 @@ const PortfolioSection: React.FC = () => {
       title: "Physiotherapy Website",
       description: "Healthcare site offering physiotherapy info and appointment scheduling.",
       category: "Healthcare",
-      image: "public/images/healthcare.jpg",
+      image: "/images/healthcare.jpg",
       technologies: ["React Native", "Node.js", "PostgreSQL"],
       liveUrl: "https://physiotherapy-website-demo.vercel.app/",
       githubUrl: "#"
@@ -64,7 +64,7 @@ const PortfolioSection: React.FC = () => {
       title: "Studio Website",
       description: "Photography portfolio showcasing work with contact and booking form.",
       category: "Portfolio",
-      image: "public/images/studio.png",
+      image: "/images/studio.png",
       technologies: ["NextJs", "EmailJS", "Tailwind CSS"],
       liveUrl: "https://murlidharstudio.com/",
       githubUrl: "#"
@@ -73,7 +73,7 @@ const PortfolioSection: React.FC = () => {
       title: "Salon Website",
       description: "Salon website with service showcase and easy appointment booking",
       category: "Business",
-      image: "public/images/Salon.png",
+      image: "/images/Salon.png",
       technologies: ["ReactJs", "EmailJS", "Tailwind CSS"],
       liveUrl: "https://blush-bloom-beauty-studio.vercel.app/",
       githubUrl: "#"

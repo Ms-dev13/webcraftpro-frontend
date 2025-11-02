@@ -225,7 +225,7 @@ const fallbackPricingData: PricingData = {
 export async function getPricingData(): Promise<PricingData> {
   try {
     // Try to fetch the JSON file from the  directory
-    const response = await fetch('public/pricing.json');
+    const response = await fetch('/pricing.json');
 
     if (!response.ok) {
       console.warn('Failed to fetch pricing.json, using fallback data');
