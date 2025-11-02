@@ -19,7 +19,7 @@ const AdminPanel: React.FC = () => {
 
   const verifyToken = async (token: string) => {
     try {
-      const response = await fetch('http://localhost:3001/api/admin/verify', {
+      const response = await fetch('https://webcraftpro-backend.onrender.com/api/admin/verify', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

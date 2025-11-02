@@ -32,7 +32,7 @@ const AdminLogin: React.FC<AdminLoginProps> = ({ onLogin }) => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/admin/login', {
+      const response = await fetch('https://webcraftpro-backend.onrender.com/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(credentials),

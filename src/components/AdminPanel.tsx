@@ -18,7 +18,7 @@ const AdminPanel: React.FC = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch('http://localhost:3001/api/contacts');
+        const response = await fetch('https://webcraftpro-backend.onrender.com/api/contacts');
         if (!response.ok) {
           throw new Error('Failed to fetch data from the server.');
         }

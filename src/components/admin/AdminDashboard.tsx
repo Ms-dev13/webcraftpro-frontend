@@ -37,7 +37,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onLogout }) => {
     setError(null);
     try {
       const token = localStorage.getItem('adminToken');
-      const response = await fetch('http://localhost:3001/api/admin/contacts', {
+      const response = await fetch('https://webcraftpro-backend.onrender.com/api/admin/contacts', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

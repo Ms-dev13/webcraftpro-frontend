@@ -130,7 +130,7 @@ const HeroSection: React.FC = () => {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-2xl mx-auto"
           >
             {[
-              { number: '500+', label: 'Websites Built' },
+              { number: '25+', label: 'Websites Built' },
               { number: '98%', label: 'Client Satisfaction' },
               { number: '24h', label: 'Average Response' },
             ].map((stat, index) => (
